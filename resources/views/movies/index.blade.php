@@ -3,7 +3,7 @@
 
 <section id="movies">
     @forelse ($movies as $movie)
-
+<div class="container d-flex justify-content-center text-center">
     <div class="card border-primary mb-3" style="max-width: 18rem;">
         <div class="card-header">{{$movie['title']}}</div>
         <div class="card-body text-primary">
@@ -12,7 +12,7 @@
           <p>{{$movie['vote']}}</p>
         </div>
       </div>
-
+  </div>
     @empty
     <h1 class="text-center">Non ci sono film</h1>
     @endforelse 

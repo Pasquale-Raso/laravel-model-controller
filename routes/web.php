@@ -17,7 +17,4 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
-Route::get('/movies', function () {
-    $movies = [];
-    return view('movies.index', compact('movies'));
-})->name('movies.index');
+Route::get('/movies','HomeController@index')->name('movies');
