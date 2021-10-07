@@ -9,11 +9,11 @@
 </head>
 <body>
     {{-- HEADER --}}
-    <header>header</header>
+    <header class="text-center">header</header>
     {{-- MAIN --}}
     @yield('main')
     {{-- FOOTER --}}
-    <footer>footer</footer>
+    <footer class="text-center">footer</footer>
     <script src="{{ asset('js/app.js')}}"></script>
 </body>
 </html>

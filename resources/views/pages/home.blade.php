@@ -1,7 +1,7 @@
 @extends('layouts.template')
 @section('main')
 
-<h1>pasquale</h1>
+<a href="{{ route('movies.index')}}"><h1 class="text-center">MOVIES</h1></a>
 
 
 @endsection
